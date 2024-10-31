@@ -1,5 +1,4 @@
-import React from 'react';
-import { Music4, Clock, DollarSign, Calendar } from 'lucide-react';
+import { Music4, Clock, DollarSign } from 'lucide-react';
 import BookingForm from './components/BookingForm';
 import StudioInfo from './components/StudioInfo';
 import PricingCard from './components/PricingCard';
@@ -12,7 +11,7 @@ function App() {
         <div 
           className="absolute inset-0 bg-black opacity-40"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1583328359729-dee77c8e7a88?auto=format&fit=crop&q=80")',
+            backgroundImage: 'url("https://www.blaqdot.co.za/hero/blaqdot.png")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundBlendMode: 'overlay'
